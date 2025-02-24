@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(vars.css);
+
+body {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+.cabecalho {
+    padding: 2% 0px 0px 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.cabecalho__menu__link {
+    color: var(--tertiary-color);
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-family: var(--montserrat-font);
+    font-weight: 600;
+}
+
+
+.main {
+    padding: 4% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    
+}
+
+.main__content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.main__content__titulo {
+    font-size: 1.688rem;
+    font-family: var(--kronaOne-font);
+    line-height: 1.3;
+}
+
+.titulo-destaque {
+    color: var(--tertiary-color);
+}
+
+.main__content__p {
+    font-size: 1.063rem;
+    font-family: var(--montserrat-font);
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+.main__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.main__links__subtitulo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: var(--montserrat-font);
+    ;
+}
+
+.main__links__redesocial {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 19px 0px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: var(--tertiary-color) 2px solid;
+    text-decoration: none;
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 1.063rem;
+    font-family: var(--montserrat-font);
+    transition-duration: .3s;
+    gap: 15px;;
+    align-items: center;
+}
+
+.main__links__redesocial:hover {
+    background-color: var(--hover-color);
+    width: 60%;
+}
+
+.main__img {
+    width: 45%;
+    border-radius: 20px;
+}
+strong	{
+    font-weight: 500;
+    font-style: italic;
+}
+
+ul{
+    list-style: circle;    
+    margin-left: 40px;
+}
+
+dt, dd, li{
+    font-size: 1.063rem;
+    font-family: var(--montserrat-font);
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+footer {
+    font-size: 1.063rem;
+    text-align: center;
+    padding: 17px;
+    background-color: var(--tertiary-color);
+    color: var(--main-color);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: var(--montserrat-font);
+    font-weight: 500;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px) {
+    
+    .cabecalho{
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .main{
+        flex-direction: column-reverse;
+        gap: 80px;
+        padding: 80px 56px 8% 56px;
+    }
+    .main__content{
+        width: auto;  
+    }
+    .main__img{
+        width: 80%;
+    }
+    .main__links__redesocial{
+        width: 60%;
+    }
+    .main__links__redesocial:hover{
+        width: 75%;
+    }
+    ul{
+        margin-left: 30px;
+    }
+}
